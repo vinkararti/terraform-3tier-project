@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://https://github.com/vinkararti/terraform-3tier-project.git'
+                git gh repo clone vinkararti/terraform-3tier-project
             }
         }
         stage('init') {
